@@ -11,7 +11,7 @@ class App extends Component{
   constructor(props){
     super(props);
 
-    this.state = { videos: [ ] };
+    this.state = { videos: [] };
 
     //Youtube api search test.
     YTSearch({key: API_KEY, term:"skate"},(videos) => {
